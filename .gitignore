@@ -1,2 +1,4 @@
 .idea/*
 game-server/logs/*
+
+.idea/workspace.xml
