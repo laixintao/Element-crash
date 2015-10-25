@@ -1,4 +1,3 @@
-.idea/*
 game-server/logs/*
-
-.idea/workspace.xml
+node_modules/*
+.idea/*
