@@ -9,6 +9,17 @@ function Player(player,speedX,speedY,shareSpeedX,shareSpeedY,ball){
     this.shareSpeedX = shareSpeedX;
     this.shareSpeedY = shareSpeedY;
     this.ball = ball;
+    this.toJSON = function(){
+        var str;
+        str = '{"player":"'+this.player+
+            '","speedX":"'+this.speedX+
+            '","speedY":"'+this.speedY+
+            '","shareSpeedX":"'+this.shareSpeedX+
+            '","shareSpeedY":"'+this.shareSpeedY+
+            '","ball":"'+this.ball+
+            '"}';
+        return str;
+    }
 }
 
 
@@ -59,6 +70,8 @@ wss.on('connection', function connection(ws){
             playerB.shareSpeedX = tmp['shareSpeedX'];
             playerB.shareSpeedY = tmp['shareSpeedY'];
             playerB.ball = tmp['ball'];
+            //console.log("------------");
+            //console.log(playerA.toJSON());
             num_players++;
             console.log(num_players);
             msg_send = '[{"player":"'+playerA.player+
@@ -108,6 +121,8 @@ wss.on('connection', function connection(ws){
 
         }
         console.log(msg_send);
+        //console.log(playerA.toJSON());
+        //console.log(playerB.toJSON());
         wss.clients.forEach(function each(client) {
             client.send(msg_send);
         });
@@ -115,7 +130,7 @@ wss.on('connection', function connection(ws){
 
     ws.on('close',function close(code,message){
         num_players--;
-       console.log(code + message + "player..." + num_players);
+       console.log(code + "player leave..." + num_players);
     });
 });
 
