@@ -40,7 +40,7 @@ var pingpang;
             //添加异常侦听，出现异常会调用此方法
             this.socket.addEventListener(egret.IOErrorEvent.IO_ERROR, this.onSocketError, this);
             //连接服务器
-            this.socket.connect("115.29.114.202", 3333);
+            this.socket.connect("127.0.0.1", 3333);
         };
         p.sendData = function () {
             //创建 ByteArray 对象
