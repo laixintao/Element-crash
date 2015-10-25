@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efa3f847-56a8-4ab4-a350-492e6c47077f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/server.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bin-debug/LoadingUI.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bin-debug/Main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bin-debug/pingpang/Bgmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bin-debug/pingpang/GameContainer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bin-debug/pingpang/KeyBoard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bin-debug/pingpang/KeyEvent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bin-debug/pingpang/Player.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bin-debug/pingpang/StartBtn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/bin-debug/public/Unit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/egretProperties.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/egret/egret.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/egret/egret.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/egret/egret.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/egret/egret.native.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/egret/egret.native.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/egret/egret.web.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/egret/egret.web.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/game/game.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/game/game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/game/game.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/game/game.native.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/game/game.native.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/game/game.web.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/game/game.web.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/res/res.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/res/res.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/res/res.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/socket/socket.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/socket/socket.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/socket/socket.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/tween/tween.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/tween/tween.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/libs/modules/tween/tween.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resource/assets/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resource/assets/egret_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resource/config/description.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resource/default.res.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/resource/theme.thm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/LoadingUI.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/Main.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/pingpang/Bgmap.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/pingpang/GameContainer.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/pingpang/KeyBoard.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/pingpang/KeyEvent.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/pingpang/Player.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/pingpang/StartBtn.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/public/Unit.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/template/runtime/native_loader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/template/runtime/native_require.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/template/runtime/runtime_loader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/wingProperties.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/game-server/runserver.js" afterPath="$PROJECT_DIR$/game-server/runserver.js" />
     </list>
     <ignored path="Element-crash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,11 +46,9 @@
       <file leaf-file-name="runserver.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game-server/runserver.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7133676">
-              <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.24686192">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -151,6 +96,7 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/web-server/app.js" />
         <option value="$PROJECT_DIR$/web-server/public/bin-debug/pingpang/GameContainer.js" />
+        <option value="$PROJECT_DIR$/game-server/runserver.js" />
       </list>
     </option>
   </component>
@@ -421,11 +367,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game-server/runserver.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7133676">
-          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.24686192">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
