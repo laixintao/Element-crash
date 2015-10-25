@@ -51,7 +51,7 @@ wss.on('connection', function connection(ws){
             msg_send = "wait";
             num_players ++;
             console.log(num_players);
-        }else if(num_players == 1 && name !=playerA.player) {
+        }else if(num_players == 1 && name != playerA.player) {
             playerB = new Player();
             playerB.player = tmp['player'];
             playerB.speedX = tmp['speedX'];
@@ -61,20 +61,20 @@ wss.on('connection', function connection(ws){
             playerB.ball = tmp['ball'];
             num_players++;
             console.log(num_players);
-            msg_send = '{"'+playerA.player+
-                '":{"speedX":"'+playerA.speedX+
+            msg_send = '[{"player":"'+playerA.player+
+                '","speedX":"'+playerA.speedX+
                 '","speedY":"'+playerA.speedY+
                 '","shareSpeedX":"'+playerA.shareSpeedX+
                 '","shareSpeedY":"'+playerA.shareSpeedY+
                 '","ball":"'+playerA.ball+
-                '"},"'+playerB.player+
-                '":{"speedX":"'+playerB.speedX+
+                '"},{"player":"'+playerB.player+
+                '","speedX":"'+playerB.speedX+
                 '","speedY":"'+playerB.speedY+
                 '","shareSpeedX":"'+playerB.shareSpeedX+
                 '","shareSpeedY":"'+playerB.shareSpeedY+
                 '","ball":"'+playerB.ball+
-                '"}}';
-        }else{
+                '"}]';
+        }else if(num_players == 2){
             if(name == playerA.player){
                 console.log("A move...");
                 playerA.player = tmp['player'];
@@ -92,19 +92,19 @@ wss.on('connection', function connection(ws){
                 playerB.shareSpeedY = tmp['shareSpeedY'];
                 playerB.ball = tmp['ball'];
             }
-            msg_send = '{"'+playerA.player+
-                    '":{"speedX":"'+playerA.speedX+
-                    '","speedY":"'+playerA.speedY+
-                    '","shareSpeedX":"'+playerA.shareSpeedX+
-                    '","shareSpeedY":"'+playerA.shareSpeedY+
-                    '","ball":"'+playerA.ball+
-                    '"},"'+playerB.player+
-                    '":{"speedX":"'+playerB.speedX+
-                    '","speedY":"'+playerB.speedY+
-                    '","shareSpeedX":"'+playerB.shareSpeedX+
-                    '","shareSpeedY":"'+playerB.shareSpeedY+
-                    '","ball":"'+playerB.ball+
-                    '"}}';
+            msg_send = '[{"player":"'+playerA.player+
+                '","speedX":"'+playerA.speedX+
+                '","speedY":"'+playerA.speedY+
+                '","shareSpeedX":"'+playerA.shareSpeedX+
+                '","shareSpeedY":"'+playerA.shareSpeedY+
+                '","ball":"'+playerA.ball+
+                '"},{"player":"'+playerB.player+
+                '","speedX":"'+playerB.speedX+
+                '","speedY":"'+playerB.speedY+
+                '","shareSpeedX":"'+playerB.shareSpeedX+
+                '","shareSpeedY":"'+playerB.shareSpeedY+
+                '","ball":"'+playerB.ball+
+                '"}]';
 
         }
         console.log(msg_send);
